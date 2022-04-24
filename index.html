@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+
+<body>
+
+    <h1> See On The Console... </h1>
+
+    <!-- <script src="index.js"></script> -->
+    <script>
+        console.log('WelCome');
+
+        let x = [11, 21, 31, 41, 51];
+        let y = [1, 2, 3, 4, 5];
+        let z = [8, 7, 6, 5, 3];
+
+        function divide_by_2(element) {
+            let get_first_name = element / 2;
+            return (get_first_name);
+        }
+
+        function fun1(first_x) {
+            let arr = [];
+            for (let i = 0; i < first_x.length; i++) {
+                let element_first = divide_by_2(first_x[i]);
+                arr.push(element_first);
+            }
+            return (arr);
+        }
+
+        const done_1 = fun1(x);
+        console.log(done_1);
+
+        const done_2 = fun1(y);
+        console.log(done_2);
+
+        const done_3 = fun1(z);
+        console.log(done_3);
+
+
+
+    </script>
+</body>
+
+</html>
+
+
